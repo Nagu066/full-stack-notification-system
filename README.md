@@ -1,16 +1,16 @@
-# Fullstack React Native Developer - Technical Assignment
+# Fullstack React Native Developer 
 
 ## Overview
-This repository contains the complete submission for the Fullstack React Native Developer technical assignment at Ivory. The assignment demonstrates expertise in database design, system architecture, and React Native development.
+This repository contains the complete submission for the Fullstack React Native Developer technical assignment. The assignment demonstrates expertise in database design, system architecture, and React Native development.
 
 ## Project Structure
 
 ```
-ivory-notification-assignment/
+notification-assignment/
 ├── database/          # MongoDB schema design
 ├── architecture/      # System architecture design
 ├── mobile-app/        # React Native mobile application
-├── admin-panel/       # React web admin panel (Optional)
+├── admin-panel/       # React web admin panel
 └── README.md                # This file
 ```
 
@@ -48,7 +48,6 @@ ivory-notification-assignment/
 - Resend functionality (mocked)
 - Create notification form (mocked)
 - **Location**: `admin-panel/`
-- **Live Demo**: [Deployed on Vercel] (if deployed)
 
 ## Quick Start
 
@@ -56,7 +55,7 @@ ivory-notification-assignment/
 ```bash
 cd mobile-app
 npm install
-npm run android
+npm run android or npm run ios
 ```
 
 ### Task 4: Admin Panel
